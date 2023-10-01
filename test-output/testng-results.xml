@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-01T08:15:26 IST" name="Default suite" finished-at="2023-10-01T08:16:06 IST" duration-ms="40096">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@3932c79a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-01T08:15:26 IST" name="Default test" finished-at="2023-10-01T08:16:06 IST" duration-ms="40096">
+      <class name="runner.TestngRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestngRunner@3932c79a]" started-at="2023-10-01T08:15:26 IST" name="setUpClass" finished-at="2023-10-01T08:15:28 IST" duration-ms="2155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d55dd21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@3932c79a]" started-at="2023-10-01T08:15:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-01T08:15:52 IST" duration-ms="23858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search product using data table from feature file data for Amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon Search Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@3932c79a]" started-at="2023-10-01T08:15:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-01T08:16:03 IST" duration-ms="10889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Ebay Search with hardcoded value from step definition"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ebay Search Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestngRunner@3932c79a]" started-at="2023-10-01T08:16:03 IST" name="tearDownClass" finished-at="2023-10-01T08:16:06 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestngRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
